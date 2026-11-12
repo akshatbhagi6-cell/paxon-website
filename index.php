@@ -20,7 +20,7 @@ include 'includes/header.php';
       <p>[Ask Paxon for a short company intro]</p>
       <a href="about.php" class="link-arrow">Read more &rarr;</a>
     </div>
-    <div class="about-image">Plant photo coming soon</div>
+    <div class="about-image"><img src="assets/images/onion_2.jpg" alt="Dehydrated onion flakes by Paxon Industries" loading="lazy"></div>
   </section>
 
   <section class="section">
@@ -28,21 +28,21 @@ include 'includes/header.php';
     <div class="product-grid">
 
       <article class="product-card">
-        <div class="product-img">Photo coming soon</div>
+        <div class="product-img"><img src="assets/images/onion.jpg" alt="Dehydrated onion" loading="lazy"></div>
         <h3>Dehydrated Onion</h3>
         <p>[Ask Paxon: available forms and varieties]</p>
         <a href="product-detail.php" class="btn-small">View Details</a>
       </article>
 
       <article class="product-card">
-        <div class="product-img">Photo coming soon</div>
+        <div class="product-img"><img src="assets/images/garlic.jpg" alt="Dehydrated garlic" loading="lazy"></div>
         <h3>Dehydrated Garlic</h3>
         <p>[Ask Paxon: available forms and varieties]</p>
         <a href="product-detail.php" class="btn-small">View Details</a>
       </article>
 
       <article class="product-card">
-        <div class="product-img">Photo coming soon</div>
+        <div class="product-img"><img src="assets/images/brown_garlic.jpg" alt="Brown Garlic" loading="lazy"></div>
         <h3>Other Products</h3>
         <p>[Ask Paxon: what else they make]</p>
         <a href="products.php" class="btn-small">View All</a>
@@ -56,16 +56,16 @@ include 'includes/header.php';
 
     <div class="why-grid">
       <div class="why-item">
-        <h3>[Quality point 1]</h3>
-        <p>[Ask Paxon]</p>
+        <h3>Consistent Quality</h3>
+        <img src="assets/images/quality_logo.jpg" class="why-icon">
       </div>
       <div class="why-item">
-        <h3>[Quality point 2]</h3>
-        <p>[Ask Paxon]</p>
+        <h3>Natural Goodness Preserved</h3>
+        <img src="assets/images/natural_goodness.jpg" class="why-icon">
       </div>
       <div class="why-item">
-        <h3>[Quality point 3]</h3>
-        <p>[Ask Paxon]</p>
+        <h3>Reliable Bulk Supply</h3>
+        <img src="assets/images/bulk_supply.png" class="why-icon">
       </div>
     </div>
 
