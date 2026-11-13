@@ -45,7 +45,7 @@ h1, h2, h3 {
 
 .logo {
   display: flex;
-  align-item: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -236,6 +236,7 @@ main {
   border-left: 4px solid var(--amber);
   border-radius: 8px;
   padding: 18px;
+  text-align: center;
 }
 
 .why-icon {
@@ -243,7 +244,7 @@ main {
   height: 48px;
   object-fit: contain;
   display: block;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
 } 
 
 .why-item h3 {
@@ -288,7 +289,87 @@ main {
   color: #fff;
 }
 
+/* ---------- Contact form ---------- */
+.contact {
+  max-width: 750px;
+}
 
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--green);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px 12px;
+  border: 1px solid #c9c2ae;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--amber);
+  border-color: var(--amber);
+}
+
+.input-error {
+  border-color: #c0392b !important;
+}
+
+.form-error {
+  color: #c0392b;
+  margin: 14px 0;
+}
+
+.hp {
+  position: absolute;
+  left: -9999px;
+}
+
+.alert {
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.alert-success {
+  background: #e3f2e6;
+  color: #1f5a2d;
+}
+
+.alert-error {
+  background: #fbe4e1;
+  color: #8a2b20;
+}
+
+button.btn {
+  border: none;
+  cursor: pointer;
+  margin-top: 18px;
+  font-family: inherit;
+  font-size: 1rem;
+}
 
 /* ---------- Phones and small screens ---------- */
 @media (max-width: 768px) {
@@ -317,5 +398,9 @@ main {
 
   .logo {
     height: 56px;
+  }
+  
+  .form-grid {
+    grid-template-columns: 1fr;
   }
 }

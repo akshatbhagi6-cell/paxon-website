@@ -57,11 +57,11 @@ include 'includes/header.php';
     <div class="why-grid">
       <div class="why-item">
         <h3>Consistent Quality</h3>
-        <img src="assets/images/quality_logo.jpg" class="why-icon">
+        <img src="assets/images/quality_logo.png" class="why-icon">
       </div>
       <div class="why-item">
         <h3>Natural Goodness Preserved</h3>
-        <img src="assets/images/natural_goodness.jpg" class="why-icon">
+        <img src="assets/images/natural_goodness.png" class="why-icon">
       </div>
       <div class="why-item">
         <h3>Reliable Bulk Supply</h3>
