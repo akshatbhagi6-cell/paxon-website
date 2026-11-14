@@ -37,12 +37,9 @@ $status = $_GET['status'] ?? '';
           <input type="text" id="country" name="country" maxlength="80">
         </div>
         <div class="form-group">
-          <label for="product">Product of Interest</label>
-          <select id="product" name="product">
-            <option value="Dehydrated Onion">Dehydrated Onion</option>
-            <option value="Dehydrated Garlic">Dehydrated Garlic</option>
-            <option value="Other">Other</option>
-          </select>
+           <label for="product">Product of Interest</label>
+            <input type="text" id="product" name="product" maxlength="100"
+         value="<?php echo htmlspecialchars($_GET['product'] ?? ''); ?>" placeholder="e.g. Tomato Masala">
         </div>
         <div class="form-group full">
           <label for="quantity">Approx. Quantity Required</label>
